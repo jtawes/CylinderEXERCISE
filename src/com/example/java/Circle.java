@@ -10,7 +10,14 @@ public class Circle {
         } else {
             this.radius = radius;
         }
+    }
 
+    public double getRadius(){
+        return this.radius;
+    }
+
+    public double getArea(){
+        return (this.radius*this.radius*(Math.PI));
     }
 
 
